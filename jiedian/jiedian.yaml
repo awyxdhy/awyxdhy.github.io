@@ -35,6 +35,13 @@ proxies:
   - {"name":"海云推荐19","type":"ss","server":"01-2.qqingca.cc","port":20369,"password":"27e2f037-effd-493a-bd28-6004cd9ff1cf","cipher":"chacha20-ietf-poly1305"}
   - {"name":"海云推荐20","type":"ss","server":"01-1.qqingca.cc","port":20397,"password":"27e2f037-effd-493a-bd28-6004cd9ff1cf","cipher":"chacha20-ietf-poly1305"}
   - {"name":"海云推荐21","type":"ss","server":"free.themars.top","port":32103,"password":"b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"海云推荐22","type":"ss","server":"06.xn--8fr22cd4k1m9c.cn","port":22572,"password":"1196c1f1-ac69-4d3f-bbbb-722517323170","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"海云推荐23","type":"ss","server":"05.xn--8fr22cd4k1m9c.cn","port":46240,"password":"1196c1f1-ac69-4d3f-bbbb-722517323170","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"海云推荐24","type":"vmess","server":"15038.kuaiyincdn.uk","port":15038,"cipher":"auto","uuid":"b6243a0c-4d8b-3f30-8598-a73d343a3787","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐25","type":"trojan","server":"hk2.microsoft-orgwly.vip","port":443,"udp":true,"password":"2580d43c-eb38-4854-b8e2-972a940a622f","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐26","type":"ss","server":"1-hk-2.123445566.xyz","port":15212,"password":"1ac62a6b-305b-46ff-83a9-637ee16cde6c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"海云推荐27","type":"ss","server":"03.xn--8fr22cd4k1m9c.cn","port":14472,"password":"1196c1f1-ac69-4d3f-bbbb-722517323170","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"海云推荐28","type":"ss","server":"js2.76po.com","port":44315,"password":"1196c1f1-ac69-4d3f-bbbb-722517323170","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -62,6 +69,13 @@ proxy-groups:
       - 海云推荐19
       - 海云推荐20
       - 海云推荐21
+      - 海云推荐22
+      - 海云推荐23
+      - 海云推荐24
+      - 海云推荐25
+      - 海云推荐26
+      - 海云推荐27
+      - 海云推荐28
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -89,6 +103,13 @@ proxy-groups:
       - 海云推荐19
       - 海云推荐20
       - 海云推荐21
+      - 海云推荐22
+      - 海云推荐23
+      - 海云推荐24
+      - 海云推荐25
+      - 海云推荐26
+      - 海云推荐27
+      - 海云推荐28
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -116,6 +137,13 @@ proxy-groups:
       - 海云推荐19
       - 海云推荐20
       - 海云推荐21
+      - 海云推荐22
+      - 海云推荐23
+      - 海云推荐24
+      - 海云推荐25
+      - 海云推荐26
+      - 海云推荐27
+      - 海云推荐28
   - name: 📲 电报信息
     type: select
     proxies:
@@ -142,6 +170,13 @@ proxy-groups:
       - 海云推荐19
       - 海云推荐20
       - 海云推荐21
+      - 海云推荐22
+      - 海云推荐23
+      - 海云推荐24
+      - 海云推荐25
+      - 海云推荐26
+      - 海云推荐27
+      - 海云推荐28
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -168,6 +203,13 @@ proxy-groups:
       - 海云推荐19
       - 海云推荐20
       - 海云推荐21
+      - 海云推荐22
+      - 海云推荐23
+      - 海云推荐24
+      - 海云推荐25
+      - 海云推荐26
+      - 海云推荐27
+      - 海云推荐28
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -194,6 +236,13 @@ proxy-groups:
       - 海云推荐19
       - 海云推荐20
       - 海云推荐21
+      - 海云推荐22
+      - 海云推荐23
+      - 海云推荐24
+      - 海云推荐25
+      - 海云推荐26
+      - 海云推荐27
+      - 海云推荐28
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -237,6 +286,13 @@ proxy-groups:
       - 海云推荐19
       - 海云推荐20
       - 海云推荐21
+      - 海云推荐22
+      - 海云推荐23
+      - 海云推荐24
+      - 海云推荐25
+      - 海云推荐26
+      - 海云推荐27
+      - 海云推荐28
 
 rules:
 # 本地/局域网地址
