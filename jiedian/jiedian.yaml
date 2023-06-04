@@ -14,21 +14,34 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"海云推荐1","type":"vmess","server":"v03.jiedian.stream","port":10000,"cipher":"auto","uuid":"c23ed72a-71ff-4c46-a9e9-51361974bb8a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"gw.alicdn.com"}}}
-  - {"name":"海云推荐2","type":"trojan","server":"us3.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","sni":"us3.chuqiangtou.net","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐1","type":"trojan","server":"us3.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","sni":"us3.chuqiangtou.net","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐2","type":"trojan","server":"microsoft-hk.85413.xyz","port":443,"udp":true,"password":"6aa31a86-e2bd-4ede-b2be-095310b77ad5","skip-cert-verify":true,"network":"tcp"}
   - {"name":"海云推荐3","type":"trojan","server":"us2.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"海云推荐4","type":"trojan","server":"jp2.downloadvip.cfd","port":443,"udp":true,"password":"20abfcfc-c717-4ac5-8642-a0979f595474","sni":"download.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐4","type":"trojan","server":"hk1.downloadvip.cfd","port":443,"udp":true,"password":"eb04af08-a11b-422a-8dfa-710238d91625","sni":"download.xn--mes358acgm99l.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"海云推荐5","type":"trojan","server":"uk1.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
   - {"name":"海云推荐6","type":"trojan","server":"usa.stablize.top","port":443,"udp":true,"password":"90a0fed1-c27c-4eab-95d6-12f038ced5ab","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"海云推荐7","type":"trojan","server":"us1.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","sni":"us1.chuqiangtou.net","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"海云推荐8","type":"vmess","server":"172.64.132.246","port":80,"cipher":"auto","uuid":"4529e5be-cbed-4bbd-9917-b627d13ca1fe","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"host.tgfree365.ga"}}}
-  - {"name":"海云推荐9","type":"ss","server":"free.themars.top","port":32102,"password":"b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"海云推荐10","type":"vmess","server":"v24.jiedian.stream","port":80,"cipher":"auto","uuid":"c23ed72a-71ff-4c46-a9e9-51361974bb8a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"gw.alicdn.com"}}}
-  - {"name":"海云推荐11","type":"vmess","server":"v21.jiedian.stream","port":80,"cipher":"auto","uuid":"c23ed72a-71ff-4c46-a9e9-51361974bb8a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"gw.alicdn.com"}}}
-  - {"name":"海云推荐12","type":"vmess","server":"cf.noaries.de","port":8080,"cipher":"auto","uuid":"67c5ce45-7b48-473e-bf25-e4c830b0ed24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"buyvm.iiio.wiki"}}}
-  - {"name":"海云推荐13","type":"vmess","server":"192.9.241.40","port":80,"cipher":"auto","uuid":"c23ed72a-71ff-4c46-a9e9-51361974bb8a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"gw.alicdn.com"}}}
-  - {"name":"海云推荐14","type":"vmess","server":"v08.jiedian.stream","port":80,"cipher":"auto","uuid":"c23ed72a-71ff-4c46-a9e9-51361974bb8a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"gw.alicdn.com"}}}
-  - {"name":"海云推荐15","type":"trojan","server":"usa.stablize.top","port":443,"udp":true,"password":"e81c0cf0-d4f4-402e-81ee-4eb19a832ffa","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐7","type":"trojan","server":"assets.flareai.site","port":13343,"udp":true,"password":"d0d24d5b-54ae-40a0-ab68-889dbd4b8a66","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐8","type":"trojan","server":"sg.stablize.top","port":443,"udp":true,"password":"ee8f2339-6935-4719-97b8-7f8fa521418d","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐9","type":"trojan","server":"us1.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","sni":"us1.chuqiangtou.net","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐10","type":"vmess","server":"172.64.132.246","port":80,"cipher":"auto","uuid":"4529e5be-cbed-4bbd-9917-b627d13ca1fe","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"host.tgfree365.ga"}}}
+  - {"name":"海云推荐11","type":"ss","server":"free.themars.top","port":32102,"password":"b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"海云推荐12","type":"vmess","server":"v24.jiedian.stream","port":80,"cipher":"auto","uuid":"c23ed72a-71ff-4c46-a9e9-51361974bb8a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"gw.alicdn.com"}}}
+  - {"name":"海云推荐13","type":"trojan","server":"jp.stablize.top","port":443,"udp":true,"password":"90a0fed1-c27c-4eab-95d6-12f038ced5ab","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐14","type":"vmess","server":"v21.jiedian.stream","port":80,"cipher":"auto","uuid":"c23ed72a-71ff-4c46-a9e9-51361974bb8a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"gw.alicdn.com"}}}
+  - {"name":"海云推荐15","type":"trojan","server":"jp2.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐16","type":"vmess","server":"cloudflare.piaole.me","port":443,"cipher":"auto","uuid":"a3869db4-eaaa-4cef-b131-26b3c0b46686","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/huawei","headers":{"host":"cloudflare.piaole.me"}}}
+  - {"name":"海云推荐17","type":"trojan","server":"jp1.downloadvip.cfd","port":443,"udp":true,"password":"eb04af08-a11b-422a-8dfa-710238d91625","sni":"download.xn--mes358acgm99l.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐18","type":"trojan","server":"au3.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐19","type":"vmess","server":"cf.noaries.de","port":8080,"cipher":"auto","uuid":"67c5ce45-7b48-473e-bf25-e4c830b0ed24","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"buyvm.iiio.wiki"}}}
+  - {"name":"海云推荐20","type":"vmess","server":"tou.vtcss.top","port":8080,"cipher":"auto","uuid":"9588cb0f-5102-4e66-d5fb-f96cba9acdda","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qazxcv00","headers":{"host":"tou.vtcss.top"}}}
+  - {"name":"海云推荐21","type":"vmess","server":"tou.vtcss.top","port":443,"cipher":"auto","uuid":"2c3a22f0-2087-4f86-b30d-664317f8c820","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qwer","headers":{"host":"tou.vtcss.top"}}}
+  - {"name":"海云推荐22","type":"vmess","server":"142.4.108.26","port":49982,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐23","type":"vmess","server":"192.9.241.40","port":80,"cipher":"auto","uuid":"c23ed72a-71ff-4c46-a9e9-51361974bb8a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"gw.alicdn.com"}}}
+  - {"name":"海云推荐24","type":"vmess","server":"112.132.215.189","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐25","type":"vmess","server":"v08.jiedian.stream","port":80,"cipher":"auto","uuid":"c23ed72a-71ff-4c46-a9e9-51361974bb8a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"gw.alicdn.com"}}}
+  - {"name":"海云推荐26","type":"trojan","server":"nl1.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐27","type":"trojan","server":"usa.stablize.top","port":443,"udp":true,"password":"e81c0cf0-d4f4-402e-81ee-4eb19a832ffa","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐28","type":"vmess","server":"43.156.131.164","port":43860,"cipher":"auto","uuid":"be3fdec2-86e1-4d51-969b-704b1efc3158","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/sg2/getData"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -50,6 +63,19 @@ proxy-groups:
       - 海云推荐13
       - 海云推荐14
       - 海云推荐15
+      - 海云推荐16
+      - 海云推荐17
+      - 海云推荐18
+      - 海云推荐19
+      - 海云推荐20
+      - 海云推荐21
+      - 海云推荐22
+      - 海云推荐23
+      - 海云推荐24
+      - 海云推荐25
+      - 海云推荐26
+      - 海云推荐27
+      - 海云推荐28
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -71,6 +97,19 @@ proxy-groups:
       - 海云推荐13
       - 海云推荐14
       - 海云推荐15
+      - 海云推荐16
+      - 海云推荐17
+      - 海云推荐18
+      - 海云推荐19
+      - 海云推荐20
+      - 海云推荐21
+      - 海云推荐22
+      - 海云推荐23
+      - 海云推荐24
+      - 海云推荐25
+      - 海云推荐26
+      - 海云推荐27
+      - 海云推荐28
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -92,6 +131,19 @@ proxy-groups:
       - 海云推荐13
       - 海云推荐14
       - 海云推荐15
+      - 海云推荐16
+      - 海云推荐17
+      - 海云推荐18
+      - 海云推荐19
+      - 海云推荐20
+      - 海云推荐21
+      - 海云推荐22
+      - 海云推荐23
+      - 海云推荐24
+      - 海云推荐25
+      - 海云推荐26
+      - 海云推荐27
+      - 海云推荐28
   - name: 📲 电报信息
     type: select
     proxies:
@@ -112,6 +164,19 @@ proxy-groups:
       - 海云推荐13
       - 海云推荐14
       - 海云推荐15
+      - 海云推荐16
+      - 海云推荐17
+      - 海云推荐18
+      - 海云推荐19
+      - 海云推荐20
+      - 海云推荐21
+      - 海云推荐22
+      - 海云推荐23
+      - 海云推荐24
+      - 海云推荐25
+      - 海云推荐26
+      - 海云推荐27
+      - 海云推荐28
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -132,6 +197,19 @@ proxy-groups:
       - 海云推荐13
       - 海云推荐14
       - 海云推荐15
+      - 海云推荐16
+      - 海云推荐17
+      - 海云推荐18
+      - 海云推荐19
+      - 海云推荐20
+      - 海云推荐21
+      - 海云推荐22
+      - 海云推荐23
+      - 海云推荐24
+      - 海云推荐25
+      - 海云推荐26
+      - 海云推荐27
+      - 海云推荐28
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -152,6 +230,19 @@ proxy-groups:
       - 海云推荐13
       - 海云推荐14
       - 海云推荐15
+      - 海云推荐16
+      - 海云推荐17
+      - 海云推荐18
+      - 海云推荐19
+      - 海云推荐20
+      - 海云推荐21
+      - 海云推荐22
+      - 海云推荐23
+      - 海云推荐24
+      - 海云推荐25
+      - 海云推荐26
+      - 海云推荐27
+      - 海云推荐28
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -189,6 +280,19 @@ proxy-groups:
       - 海云推荐13
       - 海云推荐14
       - 海云推荐15
+      - 海云推荐16
+      - 海云推荐17
+      - 海云推荐18
+      - 海云推荐19
+      - 海云推荐20
+      - 海云推荐21
+      - 海云推荐22
+      - 海云推荐23
+      - 海云推荐24
+      - 海云推荐25
+      - 海云推荐26
+      - 海云推荐27
+      - 海云推荐28
 
 rules:
 # 本地/局域网地址
