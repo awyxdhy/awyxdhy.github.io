@@ -14,158 +14,158 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"美国(油管:节点君)+45\r","type":"trojan","server":"us2.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","sni":"us2.chuqiangtou.net","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"github.com/freefq+-+以色列++4\r","type":"trojan","server":"us3.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"亚洲(油管:节点君)\r","type":"ss","server":"free.themars.top","port":32102,"password":"b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"ZZ_1305\r","type":"trojan","server":"163.123.192.58","port":443,"udp":true,"password":"41bec492-cd79-4b57-9a15-7d2bb00fcfca","sni":"18-140-66-207.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国(油管:节点君) 17","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp4.scproxy.top"}}}
-  - {"name":"欧洲(油管:节点君)+11\r","type":"trojan","server":"h961359.waihuizhibiaowang.com","port":13543,"udp":true,"password":"d0d24d5b-54ae-40a0-ab68-889dbd4b8a66","sni":"h961359.waihuizhibiaowang.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国(油管:节点君) 32","type":"vmess","server":"cf.yxjnode.com","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"dp2.yxjnode.com"}}}
-  - {"name":"github.com/freefq - 美国CloudFlare公司CDN节点 24","type":"vmess","server":"www.noice.id","port":443,"cipher":"auto","uuid":"37776019-07ea-4a1d-94e7-88e5e133ad5a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/worryfree","headers":{"host":"v2ray1.udpgw.com"}}}
-  - {"name":"亚洲(油管:节点君) 19","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"uk1.scproxy.top"}}}
-  - {"name":"IL+15+→+tg@nicevpn123\r","type":"trojan","server":"jp2.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"IL+12+→+tg@nicevpn123\r","type":"trojan","server":"jp3.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"github.com/freefq+-+北京市电信+5\r","type":"ss","server":"free.themars.top","port":32103,"password":"b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"github.com/freefq+-+以色列++13\r","type":"trojan","server":"au3.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"欧洲(油管:节点君)+13\r","type":"trojan","server":"us1.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","sni":"us1.chuqiangtou.net","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"github.com/freefq - 美国CloudFlare节点 28","type":"vmess","server":"198.41.197.135","port":80,"cipher":"auto","uuid":"1eeeff8d-0028-46ec-ec2a-d39401047fbb","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qwer00","headers":{"host":"tou.vtcss.top"}}}
-  - {"name":"Relay_🇺🇸US-🇺🇸US_67 | 8.55Mb","type":"vmess","server":"23.224.11.150","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"欧洲(油管:节点君)","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"do.sharecentrepro.com"}}}
+  - {"name":"海云推荐1","type":"trojan","server":"us2.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","sni":"us2.chuqiangtou.net","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐2","type":"trojan","server":"us3.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐3","type":"ss","server":"free.themars.top","port":32102,"password":"b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"海云推荐4","type":"trojan","server":"163.123.192.58","port":443,"udp":true,"password":"41bec492-cd79-4b57-9a15-7d2bb00fcfca","sni":"18-140-66-207.nhost.00cdn.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐5","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp4.scproxy.top"}}}
+  - {"name":"海云推荐6","type":"trojan","server":"h961359.waihuizhibiaowang.com","port":13543,"udp":true,"password":"d0d24d5b-54ae-40a0-ab68-889dbd4b8a66","sni":"h961359.waihuizhibiaowang.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐7","type":"vmess","server":"cf.yxjnode.com","port":80,"cipher":"auto","uuid":"09c1d32d-4458-4ebf-b36d-4dd732bae3aa","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/yxzbp","headers":{"host":"dp2.yxjnode.com"}}}
+  - {"name":"海云推荐8","type":"vmess","server":"www.noice.id","port":443,"cipher":"auto","uuid":"37776019-07ea-4a1d-94e7-88e5e133ad5a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/worryfree","headers":{"host":"v2ray1.udpgw.com"}}}
+  - {"name":"海云推荐9","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"uk1.scproxy.top"}}}
+  - {"name":"海云推荐10","type":"trojan","server":"jp2.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐11","type":"trojan","server":"jp3.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐12","type":"ss","server":"free.themars.top","port":32103,"password":"b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"海云推荐13","type":"trojan","server":"au3.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐14","type":"trojan","server":"us1.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","sni":"us1.chuqiangtou.net","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐15","type":"vmess","server":"198.41.197.135","port":80,"cipher":"auto","uuid":"1eeeff8d-0028-46ec-ec2a-d39401047fbb","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/qwer00","headers":{"host":"tou.vtcss.top"}}}
+  - {"name":"海云推荐16","type":"vmess","server":"23.224.11.150","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐17","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"do.sharecentrepro.com"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "美国(油管:节点君)+45\r"
-      - "github.com/freefq+-+以色列++4\r"
-      - "亚洲(油管:节点君)\r"
-      - "ZZ_1305\r"
-      - 美国(油管:节点君) 17
-      - "欧洲(油管:节点君)+11\r"
-      - 美国(油管:节点君) 32
-      - github.com/freefq - 美国CloudFlare公司CDN节点 24
-      - 亚洲(油管:节点君) 19
-      - "IL+15+→+tg@nicevpn123\r"
-      - "IL+12+→+tg@nicevpn123\r"
-      - "github.com/freefq+-+北京市电信+5\r"
-      - "github.com/freefq+-+以色列++13\r"
-      - "欧洲(油管:节点君)+13\r"
-      - github.com/freefq - 美国CloudFlare节点 28
-      - Relay_🇺🇸US-🇺🇸US_67 | 8.55Mb
-      - 欧洲(油管:节点君)
+      - 海云推荐1
+      - 海云推荐2
+      - 海云推荐3
+      - 海云推荐4
+      - 海云推荐5
+      - 海云推荐6
+      - 海云推荐7
+      - 海云推荐8
+      - 海云推荐9
+      - 海云推荐10
+      - 海云推荐11
+      - 海云推荐12
+      - 海云推荐13
+      - 海云推荐14
+      - 海云推荐15
+      - 海云推荐16
+      - 海云推荐17
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "美国(油管:节点君)+45\r"
-      - "github.com/freefq+-+以色列++4\r"
-      - "亚洲(油管:节点君)\r"
-      - "ZZ_1305\r"
-      - 美国(油管:节点君) 17
-      - "欧洲(油管:节点君)+11\r"
-      - 美国(油管:节点君) 32
-      - github.com/freefq - 美国CloudFlare公司CDN节点 24
-      - 亚洲(油管:节点君) 19
-      - "IL+15+→+tg@nicevpn123\r"
-      - "IL+12+→+tg@nicevpn123\r"
-      - "github.com/freefq+-+北京市电信+5\r"
-      - "github.com/freefq+-+以色列++13\r"
-      - "欧洲(油管:节点君)+13\r"
-      - github.com/freefq - 美国CloudFlare节点 28
-      - Relay_🇺🇸US-🇺🇸US_67 | 8.55Mb
-      - 欧洲(油管:节点君)
+      - 海云推荐1
+      - 海云推荐2
+      - 海云推荐3
+      - 海云推荐4
+      - 海云推荐5
+      - 海云推荐6
+      - 海云推荐7
+      - 海云推荐8
+      - 海云推荐9
+      - 海云推荐10
+      - 海云推荐11
+      - 海云推荐12
+      - 海云推荐13
+      - 海云推荐14
+      - 海云推荐15
+      - 海云推荐16
+      - 海云推荐17
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "美国(油管:节点君)+45\r"
-      - "github.com/freefq+-+以色列++4\r"
-      - "亚洲(油管:节点君)\r"
-      - "ZZ_1305\r"
-      - 美国(油管:节点君) 17
-      - "欧洲(油管:节点君)+11\r"
-      - 美国(油管:节点君) 32
-      - github.com/freefq - 美国CloudFlare公司CDN节点 24
-      - 亚洲(油管:节点君) 19
-      - "IL+15+→+tg@nicevpn123\r"
-      - "IL+12+→+tg@nicevpn123\r"
-      - "github.com/freefq+-+北京市电信+5\r"
-      - "github.com/freefq+-+以色列++13\r"
-      - "欧洲(油管:节点君)+13\r"
-      - github.com/freefq - 美国CloudFlare节点 28
-      - Relay_🇺🇸US-🇺🇸US_67 | 8.55Mb
-      - 欧洲(油管:节点君)
+      - 海云推荐1
+      - 海云推荐2
+      - 海云推荐3
+      - 海云推荐4
+      - 海云推荐5
+      - 海云推荐6
+      - 海云推荐7
+      - 海云推荐8
+      - 海云推荐9
+      - 海云推荐10
+      - 海云推荐11
+      - 海云推荐12
+      - 海云推荐13
+      - 海云推荐14
+      - 海云推荐15
+      - 海云推荐16
+      - 海云推荐17
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "美国(油管:节点君)+45\r"
-      - "github.com/freefq+-+以色列++4\r"
-      - "亚洲(油管:节点君)\r"
-      - "ZZ_1305\r"
-      - 美国(油管:节点君) 17
-      - "欧洲(油管:节点君)+11\r"
-      - 美国(油管:节点君) 32
-      - github.com/freefq - 美国CloudFlare公司CDN节点 24
-      - 亚洲(油管:节点君) 19
-      - "IL+15+→+tg@nicevpn123\r"
-      - "IL+12+→+tg@nicevpn123\r"
-      - "github.com/freefq+-+北京市电信+5\r"
-      - "github.com/freefq+-+以色列++13\r"
-      - "欧洲(油管:节点君)+13\r"
-      - github.com/freefq - 美国CloudFlare节点 28
-      - Relay_🇺🇸US-🇺🇸US_67 | 8.55Mb
-      - 欧洲(油管:节点君)
+      - 海云推荐1
+      - 海云推荐2
+      - 海云推荐3
+      - 海云推荐4
+      - 海云推荐5
+      - 海云推荐6
+      - 海云推荐7
+      - 海云推荐8
+      - 海云推荐9
+      - 海云推荐10
+      - 海云推荐11
+      - 海云推荐12
+      - 海云推荐13
+      - 海云推荐14
+      - 海云推荐15
+      - 海云推荐16
+      - 海云推荐17
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "美国(油管:节点君)+45\r"
-      - "github.com/freefq+-+以色列++4\r"
-      - "亚洲(油管:节点君)\r"
-      - "ZZ_1305\r"
-      - 美国(油管:节点君) 17
-      - "欧洲(油管:节点君)+11\r"
-      - 美国(油管:节点君) 32
-      - github.com/freefq - 美国CloudFlare公司CDN节点 24
-      - 亚洲(油管:节点君) 19
-      - "IL+15+→+tg@nicevpn123\r"
-      - "IL+12+→+tg@nicevpn123\r"
-      - "github.com/freefq+-+北京市电信+5\r"
-      - "github.com/freefq+-+以色列++13\r"
-      - "欧洲(油管:节点君)+13\r"
-      - github.com/freefq - 美国CloudFlare节点 28
-      - Relay_🇺🇸US-🇺🇸US_67 | 8.55Mb
-      - 欧洲(油管:节点君)
+      - 海云推荐1
+      - 海云推荐2
+      - 海云推荐3
+      - 海云推荐4
+      - 海云推荐5
+      - 海云推荐6
+      - 海云推荐7
+      - 海云推荐8
+      - 海云推荐9
+      - 海云推荐10
+      - 海云推荐11
+      - 海云推荐12
+      - 海云推荐13
+      - 海云推荐14
+      - 海云推荐15
+      - 海云推荐16
+      - 海云推荐17
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "美国(油管:节点君)+45\r"
-      - "github.com/freefq+-+以色列++4\r"
-      - "亚洲(油管:节点君)\r"
-      - "ZZ_1305\r"
-      - 美国(油管:节点君) 17
-      - "欧洲(油管:节点君)+11\r"
-      - 美国(油管:节点君) 32
-      - github.com/freefq - 美国CloudFlare公司CDN节点 24
-      - 亚洲(油管:节点君) 19
-      - "IL+15+→+tg@nicevpn123\r"
-      - "IL+12+→+tg@nicevpn123\r"
-      - "github.com/freefq+-+北京市电信+5\r"
-      - "github.com/freefq+-+以色列++13\r"
-      - "欧洲(油管:节点君)+13\r"
-      - github.com/freefq - 美国CloudFlare节点 28
-      - Relay_🇺🇸US-🇺🇸US_67 | 8.55Mb
-      - 欧洲(油管:节点君)
+      - 海云推荐1
+      - 海云推荐2
+      - 海云推荐3
+      - 海云推荐4
+      - 海云推荐5
+      - 海云推荐6
+      - 海云推荐7
+      - 海云推荐8
+      - 海云推荐9
+      - 海云推荐10
+      - 海云推荐11
+      - 海云推荐12
+      - 海云推荐13
+      - 海云推荐14
+      - 海云推荐15
+      - 海云推荐16
+      - 海云推荐17
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -188,23 +188,23 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "美国(油管:节点君)+45\r"
-      - "github.com/freefq+-+以色列++4\r"
-      - "亚洲(油管:节点君)\r"
-      - "ZZ_1305\r"
-      - 美国(油管:节点君) 17
-      - "欧洲(油管:节点君)+11\r"
-      - 美国(油管:节点君) 32
-      - github.com/freefq - 美国CloudFlare公司CDN节点 24
-      - 亚洲(油管:节点君) 19
-      - "IL+15+→+tg@nicevpn123\r"
-      - "IL+12+→+tg@nicevpn123\r"
-      - "github.com/freefq+-+北京市电信+5\r"
-      - "github.com/freefq+-+以色列++13\r"
-      - "欧洲(油管:节点君)+13\r"
-      - github.com/freefq - 美国CloudFlare节点 28
-      - Relay_🇺🇸US-🇺🇸US_67 | 8.55Mb
-      - 欧洲(油管:节点君)
+      - 海云推荐1
+      - 海云推荐2
+      - 海云推荐3
+      - 海云推荐4
+      - 海云推荐5
+      - 海云推荐6
+      - 海云推荐7
+      - 海云推荐8
+      - 海云推荐9
+      - 海云推荐10
+      - 海云推荐11
+      - 海云推荐12
+      - 海云推荐13
+      - 海云推荐14
+      - 海云推荐15
+      - 海云推荐16
+      - 海云推荐17
 
 rules:
 # 本地/局域网地址
