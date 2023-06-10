@@ -14,13 +14,12 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"海云推荐1","type":"trojan","server":"sg1.downloadvip.cfd","port":443,"udp":true,"password":"1ac83a68-186b-483e-b380-faf775e4f76b","sni":"download.xn--mes358acgm99l.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐1","type":"ss","server":"54.179.172.248","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"海云推荐2","type":"trojan","server":"azjp1.downloadvip.cfd","port":443,"udp":true,"password":"1ac83a68-186b-483e-b380-faf775e4f76b","sni":"us3.xn--mes358acgm99l.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"海云推荐3","type":"trojan","server":"ssrsub.o08.trojan.tel","port":80,"udp":true,"password":"c8e877d3-2909-416d-aa5a-6d1722a374bd","sni":"ssrsub.o08.trojan.tel","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"海云推荐4","type":"trojan","server":"163.123.192.151","port":443,"udp":true,"password":"1ac83a68-186b-483e-b380-faf775e4f76b","sni":"download.xn--mes358acgm99l.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"海云推荐5","type":"trojan","server":"149.50.83.42","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"海云推荐6","type":"trojan","server":"163.123.192.152","port":443,"udp":true,"password":"1ac83a68-186b-483e-b380-faf775e4f76b","sni":"download.xn--mes358acgm99l.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"海云推荐7","type":"trojan","server":"163.123.192.150","port":443,"udp":true,"password":"1ac83a68-186b-483e-b380-faf775e4f76b","sni":"download.xn--mes358acgm99l.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐3","type":"ss","server":"54.238.232.75","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"海云推荐4","type":"trojan","server":"sg1.downloadvip.cfd","port":443,"udp":true,"password":"1ac83a68-186b-483e-b380-faf775e4f76b","sni":"download.xn--mes358acgm99l.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐5","type":"trojan","server":"103.169.7.11","port":80,"udp":true,"password":"c0d9da22-2569-4bed-a395-607d9e7ae687","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐6","type":"trojan","server":"149.50.83.42","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -33,7 +32,6 @@ proxy-groups:
       - 海云推荐4
       - 海云推荐5
       - 海云推荐6
-      - 海云推荐7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -46,7 +44,6 @@ proxy-groups:
       - 海云推荐4
       - 海云推荐5
       - 海云推荐6
-      - 海云推荐7
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -59,7 +56,6 @@ proxy-groups:
       - 海云推荐4
       - 海云推荐5
       - 海云推荐6
-      - 海云推荐7
   - name: 📲 电报信息
     type: select
     proxies:
@@ -71,7 +67,6 @@ proxy-groups:
       - 海云推荐4
       - 海云推荐5
       - 海云推荐6
-      - 海云推荐7
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -83,7 +78,6 @@ proxy-groups:
       - 海云推荐4
       - 海云推荐5
       - 海云推荐6
-      - 海云推荐7
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -95,7 +89,6 @@ proxy-groups:
       - 海云推荐4
       - 海云推荐5
       - 海云推荐6
-      - 海云推荐7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -124,7 +117,6 @@ proxy-groups:
       - 海云推荐4
       - 海云推荐5
       - 海云推荐6
-      - 海云推荐7
 
 rules:
 # 本地/局域网地址
