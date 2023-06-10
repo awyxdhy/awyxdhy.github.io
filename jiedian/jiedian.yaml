@@ -14,81 +14,172 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"海云推荐1","type":"ss","server":"54.179.172.248","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"海云推荐2","type":"trojan","server":"azjp1.downloadvip.cfd","port":443,"udp":true,"password":"1ac83a68-186b-483e-b380-faf775e4f76b","sni":"us3.xn--mes358acgm99l.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"海云推荐3","type":"ss","server":"54.238.232.75","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"海云推荐4","type":"trojan","server":"sg1.downloadvip.cfd","port":443,"udp":true,"password":"1ac83a68-186b-483e-b380-faf775e4f76b","sni":"download.xn--mes358acgm99l.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐-下载专用1","type":"ss","server":"42.240.131.209","port":59249,"password":"upPMcgj0Av","cipher":"aes-256-gcm"}
+  - {"name":"海云推荐-下载专用2","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv3.sharecentrepro.org"}}}
+  - {"name":"海云推荐-下载专用3","type":"ss","server":"free.themars.top","port":32101,"password":"b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"海云推荐-下载专用4","type":"trojan","server":"azjp1.downloadvip.cfd","port":443,"udp":true,"password":"1ac83a68-186b-483e-b380-faf775e4f76b","sni":"us3.xn--mes358acgm99l.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐-下载专用5","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ca.ilovescp.com"}}}
+  - {"name":"海云推荐-下载专用6","type":"ss","server":"54.179.172.248","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"海云推荐1","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp4.scproxy.top"}}}
+  - {"name":"海云推荐2","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv1.sharecentrepro.org"}}}
+  - {"name":"海云推荐3","type":"trojan","server":"azjp1.downloadvip.cfd","port":443,"udp":true,"password":"fddd2348-b67b-49aa-aaca-085d32f3f6fb","sni":"jp1.xn--mes358acgm99l.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐4","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"uk1.scproxy.top"}}}
   - {"name":"海云推荐5","type":"trojan","server":"103.169.7.11","port":80,"udp":true,"password":"c0d9da22-2569-4bed-a395-607d9e7ae687","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"海云推荐6","type":"trojan","server":"149.50.83.42","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐6","type":"vmess","server":"95.85.94.18","port":7645,"cipher":"auto","uuid":"c5456ec9-4eee-4902-a4e2-73059f34d8b1","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/hEd2589Rri","headers":{"host":"95.85.94.18"}}}
+  - {"name":"海云推荐7","type":"trojan","server":"sg1.downloadvip.cfd","port":443,"udp":true,"password":"1ac83a68-186b-483e-b380-faf775e4f76b","sni":"download.xn--mes358acgm99l.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐8","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv2.sharecentrepro.org"}}}
+  - {"name":"海云推荐9","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"ca.ilovescp.com"}}}
+  - {"name":"海云推荐10","type":"ss","server":"54.238.232.75","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"海云推荐11","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv1.sharecentrepro.org"}}}
+  - {"name":"海云推荐12","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"in.sharecentrepro.com"}}}
+  - {"name":"海云推荐13","type":"trojan","server":"149.50.83.40","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 海云推荐-下载专用1
+      - 海云推荐-下载专用2
+      - 海云推荐-下载专用3
+      - 海云推荐-下载专用4
+      - 海云推荐-下载专用5
+      - 海云推荐-下载专用6
       - 海云推荐1
       - 海云推荐2
       - 海云推荐3
       - 海云推荐4
       - 海云推荐5
       - 海云推荐6
+      - 海云推荐7
+      - 海云推荐8
+      - 海云推荐9
+      - 海云推荐10
+      - 海云推荐11
+      - 海云推荐12
+      - 海云推荐13
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 海云推荐-下载专用1
+      - 海云推荐-下载专用2
+      - 海云推荐-下载专用3
+      - 海云推荐-下载专用4
+      - 海云推荐-下载专用5
+      - 海云推荐-下载专用6
       - 海云推荐1
       - 海云推荐2
       - 海云推荐3
       - 海云推荐4
       - 海云推荐5
       - 海云推荐6
+      - 海云推荐7
+      - 海云推荐8
+      - 海云推荐9
+      - 海云推荐10
+      - 海云推荐11
+      - 海云推荐12
+      - 海云推荐13
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 海云推荐-下载专用1
+      - 海云推荐-下载专用2
+      - 海云推荐-下载专用3
+      - 海云推荐-下载专用4
+      - 海云推荐-下载专用5
+      - 海云推荐-下载专用6
       - 海云推荐1
       - 海云推荐2
       - 海云推荐3
       - 海云推荐4
       - 海云推荐5
       - 海云推荐6
+      - 海云推荐7
+      - 海云推荐8
+      - 海云推荐9
+      - 海云推荐10
+      - 海云推荐11
+      - 海云推荐12
+      - 海云推荐13
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 海云推荐-下载专用1
+      - 海云推荐-下载专用2
+      - 海云推荐-下载专用3
+      - 海云推荐-下载专用4
+      - 海云推荐-下载专用5
+      - 海云推荐-下载专用6
       - 海云推荐1
       - 海云推荐2
       - 海云推荐3
       - 海云推荐4
       - 海云推荐5
       - 海云推荐6
+      - 海云推荐7
+      - 海云推荐8
+      - 海云推荐9
+      - 海云推荐10
+      - 海云推荐11
+      - 海云推荐12
+      - 海云推荐13
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 海云推荐-下载专用1
+      - 海云推荐-下载专用2
+      - 海云推荐-下载专用3
+      - 海云推荐-下载专用4
+      - 海云推荐-下载专用5
+      - 海云推荐-下载专用6
       - 海云推荐1
       - 海云推荐2
       - 海云推荐3
       - 海云推荐4
       - 海云推荐5
       - 海云推荐6
+      - 海云推荐7
+      - 海云推荐8
+      - 海云推荐9
+      - 海云推荐10
+      - 海云推荐11
+      - 海云推荐12
+      - 海云推荐13
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 海云推荐-下载专用1
+      - 海云推荐-下载专用2
+      - 海云推荐-下载专用3
+      - 海云推荐-下载专用4
+      - 海云推荐-下载专用5
+      - 海云推荐-下载专用6
       - 海云推荐1
       - 海云推荐2
       - 海云推荐3
       - 海云推荐4
       - 海云推荐5
       - 海云推荐6
+      - 海云推荐7
+      - 海云推荐8
+      - 海云推荐9
+      - 海云推荐10
+      - 海云推荐11
+      - 海云推荐12
+      - 海云推荐13
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -111,12 +202,25 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 海云推荐-下载专用1
+      - 海云推荐-下载专用2
+      - 海云推荐-下载专用3
+      - 海云推荐-下载专用4
+      - 海云推荐-下载专用5
+      - 海云推荐-下载专用6
       - 海云推荐1
       - 海云推荐2
       - 海云推荐3
       - 海云推荐4
       - 海云推荐5
       - 海云推荐6
+      - 海云推荐7
+      - 海云推荐8
+      - 海云推荐9
+      - 海云推荐10
+      - 海云推荐11
+      - 海云推荐12
+      - 海云推荐13
 
 rules:
 # 本地/局域网地址
