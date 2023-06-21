@@ -14,49 +14,57 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"海云推荐-高速1","type":"ss","server":"free.themars.top","port":32104,"password":"b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"海云推荐-高速2","type":"ss","server":"54.169.128.197","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"海云推荐-高速3","type":"trojan","server":"149.50.69.127","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"海云推荐-高速4","type":"trojan","server":"149.50.69.109","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"海云推荐-高速5","type":"trojan","server":"149.50.68.107","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"海云推荐-高速6","type":"trojan","server":"149.50.69.131","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"海云推荐-高速7","type":"ss","server":"free.themars.top","port":32101,"password":"b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"海云推荐-高速8","type":"trojan","server":"149.50.66.99","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"海云推荐1","type":"ss","server":"51.132.13.41","port":52484,"password":"G4h2X1AThBilGI1eUrXny6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"海云推荐2","type":"ss","server":"43.207.139.238","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"海云推荐3","type":"ss","server":"free.themars.top","port":32103,"password":"b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"海云推荐4","type":"vmess","server":"104.17.3.81","port":443,"cipher":"auto","uuid":"2198f853-c33a-463a-bc27-6199520f810d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/worryfree","headers":{"host":"v2ray2.udpgw.com"}}}
-  - {"name":"海云推荐5","type":"trojan","server":"149.50.77.97","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"海云推荐6","type":"trojan","server":"149.50.71.124","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"海云推荐7","type":"vmess","server":"eddf.keeeeeeir.me","port":443,"cipher":"auto","uuid":"FF8A5176-6E92-4DC5-A98D-A56238B83687","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/login","headers":{"host":"eddf.keeeeeeir.me"}}}
-  - {"name":"海云推荐8","type":"trojan","server":"149.50.77.95","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"海云推荐9","type":"trojan","server":"uk1.barbecuepie.com","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"海云推荐10","type":"trojan","server":"uk1.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","sni":"CrV2ray.info","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"海云推荐11","type":"trojan","server":"149.50.83.120","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"海云推荐12","type":"trojan","server":"149.50.77.108","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"海云推荐13","type":"trojan","server":"149.50.77.125","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"海云推荐14","type":"vmess","server":"dl.v001sssv.pw","port":80,"cipher":"auto","uuid":"a4bb7f93-cee6-43d7-b2dd-fa9c70b88233","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"dl.v001sssv.pw"}}}
-  - {"name":"海云推荐15","type":"ss","server":"192.46.223.128","port":41689,"password":"0564206496","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"海云推荐16","type":"ss","server":"52.78.217.18","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"海云推荐17","type":"trojan","server":"149.50.77.102","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"海云推荐18","type":"trojan","server":"149.50.66.124","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"海云推荐19","type":"ss","server":"45.89.52.66","port":9065,"password":"PeHSHm5SqEjBuEXE","cipher":"aes-256-cfb"}
-  - {"name":"海云推荐20","type":"trojan","server":"149.50.75.104","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"海云推荐21","type":"trojan","server":"149.50.83.40","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐_高速1","type":"vmess","server":"cn-guangzhou.applebench.tech","port":56268,"cipher":"auto","uuid":"7e319f7a-4c47-4606-8008-ce6c92634dd8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐_高速2","type":"trojan","server":"us3.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐_高速3","type":"trojan","server":"de3.nigirocloud.com","port":4003,"udp":true,"password":"PlF471nxneY0YevI","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐_高速4","type":"trojan","server":"149.50.67.151","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐_高速5","type":"trojan","server":"us-08-cz2dg2.ferryhwp8ebm.com","port":7308,"udp":true,"password":"97d557df-6f6a-5bad-9483-600aba02da3a","sni":"us-08-650.duuk.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐_高速6","type":"trojan","server":"149.50.70.72","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐_高速7","type":"trojan","server":"us1.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","sni":"iranjo.cf","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐_高速8","type":"trojan","server":"149.50.75.105","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐_高速9","type":"trojan","server":"149.50.69.99","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐_高速10","type":"trojan","server":"149.50.75.79","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐_高速11","type":"trojan","server":"149.50.69.127","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐_高速12","type":"trojan","server":"149.50.66.127","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐_高速13","type":"trojan","server":"149.50.75.100","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐1","type":"trojan","server":"149.50.69.109","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐2","type":"ss","server":"cn-guangzhou.applebench.tech","port":11451,"password":"7e319f7a-4c47-4606-8008-ce6c92634dd8","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"海云推荐3","type":"trojan","server":"149.50.77.129","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐4","type":"trojan","server":"149.50.83.49","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐5","type":"trojan","server":"149.50.69.131","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐6","type":"ss","server":"cn-guangzhou.applebench.tech","port":19198,"password":"7e319f7a-4c47-4606-8008-ce6c92634dd8","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"海云推荐7","type":"trojan","server":"149.50.66.124","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐8","type":"trojan","server":"149.50.77.102","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐9","type":"trojan","server":"149.50.66.99","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐10","type":"trojan","server":"149.50.70.83","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐11","type":"trojan","server":"149.50.70.76","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐12","type":"trojan","server":"149.50.70.107","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐13","type":"trojan","server":"uk1.nigirocloud.com","port":4003,"udp":true,"password":"PlF471nxneY0YevI","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐14","type":"trojan","server":"149.50.77.95","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐15","type":"trojan","server":"149.50.77.108","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐16","type":"trojan","server":"149.50.77.97","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐17","type":"trojan","server":"149.50.77.125","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐18","type":"trojan","server":"149.50.77.99","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","sni":"telewebion.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"海云推荐19","type":"trojan","server":"149.50.77.109","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 海云推荐-高速1
-      - 海云推荐-高速2
-      - 海云推荐-高速3
-      - 海云推荐-高速4
-      - 海云推荐-高速5
-      - 海云推荐-高速6
-      - 海云推荐-高速7
-      - 海云推荐-高速8
+      - 海云推荐_高速1
+      - 海云推荐_高速2
+      - 海云推荐_高速3
+      - 海云推荐_高速4
+      - 海云推荐_高速5
+      - 海云推荐_高速6
+      - 海云推荐_高速7
+      - 海云推荐_高速8
+      - 海云推荐_高速9
+      - 海云推荐_高速10
+      - 海云推荐_高速11
+      - 海云推荐_高速12
+      - 海云推荐_高速13
       - 海云推荐1
       - 海云推荐2
       - 海云推荐3
@@ -76,22 +84,25 @@ proxy-groups:
       - 海云推荐17
       - 海云推荐18
       - 海云推荐19
-      - 海云推荐20
-      - 海云推荐21
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 海云推荐-高速1
-      - 海云推荐-高速2
-      - 海云推荐-高速3
-      - 海云推荐-高速4
-      - 海云推荐-高速5
-      - 海云推荐-高速6
-      - 海云推荐-高速7
-      - 海云推荐-高速8
+      - 海云推荐_高速1
+      - 海云推荐_高速2
+      - 海云推荐_高速3
+      - 海云推荐_高速4
+      - 海云推荐_高速5
+      - 海云推荐_高速6
+      - 海云推荐_高速7
+      - 海云推荐_高速8
+      - 海云推荐_高速9
+      - 海云推荐_高速10
+      - 海云推荐_高速11
+      - 海云推荐_高速12
+      - 海云推荐_高速13
       - 海云推荐1
       - 海云推荐2
       - 海云推荐3
@@ -111,22 +122,25 @@ proxy-groups:
       - 海云推荐17
       - 海云推荐18
       - 海云推荐19
-      - 海云推荐20
-      - 海云推荐21
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 海云推荐-高速1
-      - 海云推荐-高速2
-      - 海云推荐-高速3
-      - 海云推荐-高速4
-      - 海云推荐-高速5
-      - 海云推荐-高速6
-      - 海云推荐-高速7
-      - 海云推荐-高速8
+      - 海云推荐_高速1
+      - 海云推荐_高速2
+      - 海云推荐_高速3
+      - 海云推荐_高速4
+      - 海云推荐_高速5
+      - 海云推荐_高速6
+      - 海云推荐_高速7
+      - 海云推荐_高速8
+      - 海云推荐_高速9
+      - 海云推荐_高速10
+      - 海云推荐_高速11
+      - 海云推荐_高速12
+      - 海云推荐_高速13
       - 海云推荐1
       - 海云推荐2
       - 海云推荐3
@@ -146,21 +160,24 @@ proxy-groups:
       - 海云推荐17
       - 海云推荐18
       - 海云推荐19
-      - 海云推荐20
-      - 海云推荐21
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 海云推荐-高速1
-      - 海云推荐-高速2
-      - 海云推荐-高速3
-      - 海云推荐-高速4
-      - 海云推荐-高速5
-      - 海云推荐-高速6
-      - 海云推荐-高速7
-      - 海云推荐-高速8
+      - 海云推荐_高速1
+      - 海云推荐_高速2
+      - 海云推荐_高速3
+      - 海云推荐_高速4
+      - 海云推荐_高速5
+      - 海云推荐_高速6
+      - 海云推荐_高速7
+      - 海云推荐_高速8
+      - 海云推荐_高速9
+      - 海云推荐_高速10
+      - 海云推荐_高速11
+      - 海云推荐_高速12
+      - 海云推荐_高速13
       - 海云推荐1
       - 海云推荐2
       - 海云推荐3
@@ -180,21 +197,24 @@ proxy-groups:
       - 海云推荐17
       - 海云推荐18
       - 海云推荐19
-      - 海云推荐20
-      - 海云推荐21
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 海云推荐-高速1
-      - 海云推荐-高速2
-      - 海云推荐-高速3
-      - 海云推荐-高速4
-      - 海云推荐-高速5
-      - 海云推荐-高速6
-      - 海云推荐-高速7
-      - 海云推荐-高速8
+      - 海云推荐_高速1
+      - 海云推荐_高速2
+      - 海云推荐_高速3
+      - 海云推荐_高速4
+      - 海云推荐_高速5
+      - 海云推荐_高速6
+      - 海云推荐_高速7
+      - 海云推荐_高速8
+      - 海云推荐_高速9
+      - 海云推荐_高速10
+      - 海云推荐_高速11
+      - 海云推荐_高速12
+      - 海云推荐_高速13
       - 海云推荐1
       - 海云推荐2
       - 海云推荐3
@@ -214,21 +234,24 @@ proxy-groups:
       - 海云推荐17
       - 海云推荐18
       - 海云推荐19
-      - 海云推荐20
-      - 海云推荐21
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 海云推荐-高速1
-      - 海云推荐-高速2
-      - 海云推荐-高速3
-      - 海云推荐-高速4
-      - 海云推荐-高速5
-      - 海云推荐-高速6
-      - 海云推荐-高速7
-      - 海云推荐-高速8
+      - 海云推荐_高速1
+      - 海云推荐_高速2
+      - 海云推荐_高速3
+      - 海云推荐_高速4
+      - 海云推荐_高速5
+      - 海云推荐_高速6
+      - 海云推荐_高速7
+      - 海云推荐_高速8
+      - 海云推荐_高速9
+      - 海云推荐_高速10
+      - 海云推荐_高速11
+      - 海云推荐_高速12
+      - 海云推荐_高速13
       - 海云推荐1
       - 海云推荐2
       - 海云推荐3
@@ -248,8 +271,6 @@ proxy-groups:
       - 海云推荐17
       - 海云推荐18
       - 海云推荐19
-      - 海云推荐20
-      - 海云推荐21
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -272,14 +293,19 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 海云推荐-高速1
-      - 海云推荐-高速2
-      - 海云推荐-高速3
-      - 海云推荐-高速4
-      - 海云推荐-高速5
-      - 海云推荐-高速6
-      - 海云推荐-高速7
-      - 海云推荐-高速8
+      - 海云推荐_高速1
+      - 海云推荐_高速2
+      - 海云推荐_高速3
+      - 海云推荐_高速4
+      - 海云推荐_高速5
+      - 海云推荐_高速6
+      - 海云推荐_高速7
+      - 海云推荐_高速8
+      - 海云推荐_高速9
+      - 海云推荐_高速10
+      - 海云推荐_高速11
+      - 海云推荐_高速12
+      - 海云推荐_高速13
       - 海云推荐1
       - 海云推荐2
       - 海云推荐3
@@ -299,8 +325,6 @@ proxy-groups:
       - 海云推荐17
       - 海云推荐18
       - 海云推荐19
-      - 海云推荐20
-      - 海云推荐21
 
 rules:
 # 本地/局域网地址
@@ -2239,7 +2263,7 @@ rules:
 # YouTubeMusic
   - DOMAIN-SUFFIX,edgedatg.com,🌍 国外媒体
   - DOMAIN-SUFFIX,go.com,🌍 国外媒体
-#,USER-AGENT,AbemaTV*,🌍 国外媒体
+#   - USER-AGENT,AbemaTV*,🌍 国外媒体
   - DOMAIN-KEYWORD,abematv.akamaized.net,🌍 国外媒体
   - DOMAIN,api-abematv.bucketeer.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,abema-tv.com,🌍 国外媒体
@@ -2248,7 +2272,7 @@ rules:
   - DOMAIN-SUFFIX,ameba.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,hayabusa.io,🌍 国外媒体
   - DOMAIN-SUFFIX,hayabusa.media,🌍 国外媒体
-#,USER-AGENT,All4*,🌍 国外媒体
+#   - USER-AGENT,All4*,🌍 国外媒体
   - DOMAIN-SUFFIX,c4assets.com,🌍 国外媒体
   - DOMAIN-SUFFIX,channel4.com,🌍 国外媒体
   - DOMAIN-KEYWORD,avoddashs,🌍 国外媒体
@@ -2270,14 +2294,14 @@ rules:
   - DOMAIN-SUFFIX,amazonvideo.com,🌍 国外媒体
   - DOMAIN-SUFFIX,media-amazon.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pv-cdn.net,🌍 国外媒体
-#,URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/,🌍 国外媒体
-#,USER-AGENT,AppleNews*,🌍 国外媒体
-#,USER-AGENT,com.apple.news*,🌍 国外媒体
+#   - URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/,🌍 国外媒体
+#   - USER-AGENT,AppleNews*,🌍 国外媒体
+#   - USER-AGENT,com.apple.news*,🌍 国外媒体
   - DOMAIN,gspe1-ssl.ls.apple.com,🌍 国外媒体
   - DOMAIN,np-edge.itunes.apple.com,🌍 国外媒体
   - DOMAIN,play-edge.itunes.apple.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tv.apple.com,🌍 国外媒体
-#,USER-AGENT,BBCiPlayer*,🌍 国外媒体
+#   - USER-AGENT,BBCiPlayer*,🌍 国外媒体
   - DOMAIN-KEYWORD,bbcfmt,🌍 国外媒体
   - DOMAIN-KEYWORD,uk-live,🌍 国外媒体
   - DOMAIN,aod-dash-uk-live.akamaized.net,🌍 国外媒体
@@ -2292,13 +2316,13 @@ rules:
   - DOMAIN-SUFFIX,bbci.co,🌍 国外媒体
   - DOMAIN-SUFFIX,bbci.co.uk,🌍 国外媒体
   - DOMAIN-SUFFIX,bidi.net.uk,🌍 国外媒体
-#,USER-AGENT,Anime*,🌍 国外媒体
+#   - USER-AGENT,Anime*,🌍 国外媒体
   - DOMAIN,bahamut.akamaized.net,🌍 国外媒体
   - DOMAIN,gamer-cds.cdn.hinet.net,🌍 国外媒体
   - DOMAIN,gamer2-cds.cdn.hinet.net,🌍 国外媒体
   - DOMAIN-SUFFIX,bahamut.com.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,gamer.com.tw,🌍 国外媒体
-#,USER-AGENT,DAZN*,🌍 国外媒体
+#   - USER-AGENT,DAZN*,🌍 国外媒体
   - DOMAIN-KEYWORD,voddazn,🌍 国外媒体
   - DOMAIN,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
@@ -2310,14 +2334,14 @@ rules:
   - DOMAIN-SUFFIX,indazn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,indaznlab.com,🌍 国外媒体
   - DOMAIN-SUFFIX,sentry.io,🌍 国外媒体
-#,USER-AGENT,Deezer*,🌍 国外媒体
+#   - USER-AGENT,Deezer*,🌍 国外媒体
   - DOMAIN-SUFFIX,deezer.com,🌍 国外媒体
   - DOMAIN-SUFFIX,dzcdn.net,🌍 国外媒体
   - DOMAIN-SUFFIX,disco-api.com,🌍 国外媒体
   - DOMAIN-SUFFIX,discovery.com,🌍 国外媒体
   - DOMAIN-SUFFIX,uplynk.com,🌍 国外媒体
-#,USER-AGENT,Disney*,🌍 国外媒体
-#,USER-AGENT,Disney+*,🌍 国外媒体
+#   - USER-AGENT,Disney*,🌍 国外媒体
+#   - USER-AGENT,Disney+*,🌍 国外媒体
   - DOMAIN,cdn.registerdisney.go.com,🌍 国外媒体
   - DOMAIN-SUFFIX,adobedtm.com,🌍 国外媒体
   - DOMAIN-SUFFIX,bam.nr-data.net,🌍 国外媒体
@@ -2338,24 +2362,24 @@ rules:
   - DOMAIN-SUFFIX,dssott.com,🌍 国外媒体
   - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,🌍 国外媒体
   - DOMAIN-SUFFIX,js-agent.newrelic.com,🌍 国外媒体
-#,USER-AGENT,encoreTVB*,🌍 国外媒体
+#   - USER-AGENT,encoreTVB*,🌍 国外媒体
   - DOMAIN,bcbolt446c5271-a.akamaihd.net,🌍 国外媒体
   - DOMAIN,content.jwplatform.com,🌍 国外媒体
   - DOMAIN,edge.api.brightcove.com,🌍 国外媒体
   - DOMAIN,videos-f.jwpsrv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,encoretvb.com,🌍 国外媒体
-#,USER-AGENT,FOX%20NOW*,🌍 国外媒体
+#   - USER-AGENT,FOX%20NOW*,🌍 国外媒体
   - DOMAIN-SUFFIX,fox.com,🌍 国外媒体
   - DOMAIN-SUFFIX,foxdcg.com,🌍 国外媒体
   - DOMAIN-SUFFIX,uplynk.com,🌍 国外媒体
-#,USER-AGENT,HBO%20NOW*,🌍 国外媒体
-#,USER-AGENT,HBOMAX*,🌍 国外媒体
+#   - USER-AGENT,HBO%20NOW*,🌍 国外媒体
+#   - USER-AGENT,HBOMAX*,🌍 国外媒体
   - DOMAIN-SUFFIX,hbo.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbogo.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbomaxcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbonow.com,🌍 国外媒体
-#,USER-AGENT,HBO%20GO%20PROD*,🌍 国外媒体
+#   - USER-AGENT,HBO%20GO%20PROD*,🌍 国外媒体
   - DOMAIN-KEYWORD,.hbogoasia.,🌍 国外媒体
   - DOMAIN-KEYWORD,hbogoasia,🌍 国外媒体
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
@@ -2376,7 +2400,7 @@ rules:
   - DOMAIN-SUFFIX,hboasia.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbogoasia.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbogoasia.hk,🌍 国外媒体
-#,USER-AGENT,HWTVMobile*,🌍 国外媒体
+#   - USER-AGENT,HWTVMobile*,🌍 国外媒体
   - DOMAIN-SUFFIX,5itv.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,ocnttv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,cws-hulu.conviva.com,🌍 国外媒体
@@ -2392,12 +2416,12 @@ rules:
   - DOMAIN-SUFFIX,prod.hjholdings.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,streaks.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,yb.uncn.jp,🌍 国外媒体
-#,USER-AGENT,ITV_Player*,🌍 国外媒体
+#   - USER-AGENT,ITV_Player*,🌍 国外媒体
   - DOMAIN,itvpnpmobile-a.akamaihd.net,🌍 国外媒体
   - DOMAIN-SUFFIX,itv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,itvstatic.com,🌍 国外媒体
-#,USER-AGENT,JOOX*,🌍 国外媒体
-#,USER-AGENT,WeMusic*,🌍 国外媒体
+#   - USER-AGENT,JOOX*,🌍 国外媒体
+#   - USER-AGENT,WeMusic*,🌍 国外媒体
   - DOMAIN-KEYWORD,jooxweb-api,🌍 国外媒体
   - DOMAIN-SUFFIX,joox.com,🌍 国外媒体
   - DOMAIN-KEYWORD,japonx,🌍 国外媒体
@@ -2413,32 +2437,32 @@ rules:
   - DOMAIN-SUFFIX,kfs.io,🌍 国外媒体
   - DOMAIN-SUFFIX,kkbox.com,🌍 国外媒体
   - DOMAIN-SUFFIX,kkbox.com.tw,🌍 国外媒体
-#,USER-AGENT,KKTV*,🌍 国外媒体
-#,USER-AGENT,com.kktv.ios.kktv*,🌍 国外媒体
+#   - USER-AGENT,KKTV*,🌍 国外媒体
+#   - USER-AGENT,com.kktv.ios.kktv*,🌍 国外媒体
   - DOMAIN,kktv-theater.kk.stream,🌍 国外媒体
   - DOMAIN,theater-kktv.cdn.hinet.net,🌍 国外媒体
   - DOMAIN-SUFFIX,kktv.com.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,kktv.me,🌍 国外媒体
   - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,🌍 国外媒体
   - DOMAIN-SUFFIX,litv.tv,🌍 国外媒体
-#,USER-AGENT,LINE%20TV*,🌍 国外媒体
-#,USER-AGENT,LINE*,🌍 国外媒体
+#   - USER-AGENT,LINE%20TV*,🌍 国外媒体
+#   - USER-AGENT,LINE*,🌍 国外媒体
   - DOMAIN,d3c7rimkq79yfu.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,linetv.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,profile.line-scdn.net,🌍 国外媒体
-#,USER-AGENT,My5*,🌍 国外媒体
+#   - USER-AGENT,My5*,🌍 国外媒体
   - DOMAIN,d349g9zuie06uo.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,channel5.com,🌍 国外媒体
   - DOMAIN-SUFFIX,my5.tv,🌍 国外媒体
-#,USER-AGENT,mytv*,🌍 国外媒体
+#   - USER-AGENT,mytv*,🌍 国外媒体
   - DOMAIN-KEYWORD,nowtv100,🌍 国外媒体
   - DOMAIN-KEYWORD,rthklive,🌍 国外媒体
   - DOMAIN,mytvsuperlimited.hb.omtrdc.net,🌍 国外媒体
   - DOMAIN,mytvsuperlimited.sc.omtrdc.net,🌍 国外媒体
   - DOMAIN-SUFFIX,mytvsuper.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tvb.com,🌍 国外媒体
-#,USER-AGENT,Argo*,🌍 国外媒体
+#   - USER-AGENT,Argo*,🌍 国外媒体
   - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,🌍 国外媒体
   - DOMAIN-KEYWORD,dualstack.apiproxy-,🌍 国外媒体
   - DOMAIN-KEYWORD,netflixdnstest,🌍 国外媒体
@@ -2478,24 +2502,24 @@ rules:
   - IP-CIDR,198.45.48.0/20,🌍 国外媒体,no-resolve
   - IP-CIDR,207.45.72.0/22,🌍 国外媒体,no-resolve
   - IP-CIDR,208.75.76.0/22,🌍 国外媒体,no-resolve
-#,USER-AGENT,Niconico*,🌍 国外媒体
+#   - USER-AGENT,Niconico*,🌍 国外媒体
   - DOMAIN-SUFFIX,dmc.nico,🌍 国外媒体
   - DOMAIN-SUFFIX,nicovideo.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,nimg.jp,🌍 国外媒体
-#,USER-AGENT,PBS*,🌍 国外媒体
+#   - USER-AGENT,PBS*,🌍 国外媒体
   - DOMAIN-SUFFIX,pbs.org,🌍 国外媒体
-#,USER-AGENT,Pandora*,🌍 国外媒体
+#   - USER-AGENT,Pandora*,🌍 国外媒体
   - DOMAIN-SUFFIX,pandora.com,🌍 国外媒体
   - DOMAIN-SUFFIX,phncdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,phprcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pornhub.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pornhubpremium.com,🌍 国外媒体
   - DOMAIN-SUFFIX,qobuz.com,🌍 国外媒体
-#,USER-AGENT,SoundCloud*,🌍 国外媒体
+#   - USER-AGENT,SoundCloud*,🌍 国外媒体
   - DOMAIN-SUFFIX,p-cdn.us,🌍 国外媒体
   - DOMAIN-SUFFIX,sndcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,soundcloud.com,🌍 国外媒体
-#,USER-AGENT,Spotify*,🌍 国外媒体
+#   - USER-AGENT,Spotify*,🌍 国外媒体
   - DOMAIN-KEYWORD,-spotify-com,🌍 国外媒体
   - DOMAIN-KEYWORD,spotify.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pscdn.co,🌍 国外媒体
@@ -2504,14 +2528,14 @@ rules:
   - DOMAIN-SUFFIX,spotify.com,🌍 国外媒体
   - DOMAIN-SUFFIX,spotifycdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,spotifycdn.net,🌍 国外媒体
-#,USER-AGENT,TIDAL*,🌍 国外媒体
+#   - USER-AGENT,TIDAL*,🌍 国外媒体
   - DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tidal.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tidalhifi.com,🌍 国外媒体
-#,USER-AGENT,TaiwanGood*,🌍 国外媒体
+#   - USER-AGENT,TaiwanGood*,🌍 国外媒体
   - DOMAIN,hamifans.emome.net,🌍 国外媒体
   - DOMAIN-SUFFIX,skyking.com.tw,🌍 国外媒体
-#,USER-AGENT,TikTok*,🌍 国外媒体
+#   - USER-AGENT,TikTok*,🌍 国外媒体
   - DOMAIN-KEYWORD,tiktokcdn-,🌍 国外媒体
   - DOMAIN-SUFFIX,byteoversea.com,🌍 国外媒体
   - DOMAIN-SUFFIX,ibytedtos.com,🌍 国外媒体
@@ -2529,7 +2553,7 @@ rules:
   - DOMAIN-SUFFIX,twitch-ext.rootonline.de,🌍 国外媒体
   - DOMAIN-SUFFIX,twitch.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,twitchcdn.net,🌍 国外媒体
-#,USER-AGENT,Viu*,🌍 国外媒体
+#   - USER-AGENT,Viu*,🌍 国外媒体
   - PROCESS-NAME,com.viu.pad,🌍 国外媒体
   - PROCESS-NAME,com.viu.phone,🌍 国外媒体
   - PROCESS-NAME,com.vuclip.viu,🌍 国外媒体
@@ -2545,9 +2569,9 @@ rules:
   - DOMAIN-SUFFIX,viu.com,🌍 国外媒体
   - DOMAIN-SUFFIX,viu.now.com,🌍 国外媒体
   - DOMAIN-SUFFIX,viu.tv,🌍 国外媒体
-#,USER-AGENT,*youtube*,🌍 国外媒体
-#,USER-AGENT,YouTube*,🌍 国外媒体
-#,USER-AGENT,com.google.ios.youtube*,🌍 国外媒体
+#   - USER-AGENT,*youtube*,🌍 国外媒体
+#   - USER-AGENT,YouTube*,🌍 国外媒体
+#   - USER-AGENT,com.google.ios.youtube*,🌍 国外媒体
   - DOMAIN-KEYWORD,youtube,🌍 国外媒体
   - DOMAIN,youtubei.googleapis.com,🌍 国外媒体
   - DOMAIN,yt3.ggpht.com,🌍 国外媒体
@@ -2562,10 +2586,10 @@ rules:
   - DOMAIN-SUFFIX,youtubekids.com,🌍 国外媒体
   - DOMAIN-SUFFIX,yt.be,🌍 国外媒体
   - DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
-#,USER-AGENT,*YouTubeMusic*,🌍 国外媒体
-#,USER-AGENT,*com.google.ios.youtubemusic*,🌍 国外媒体
-#,USER-AGENT,YouTubeMusic*,🌍 国外媒体
-#,USER-AGENT,com.google.ios.youtubemusic*,🌍 国外媒体
+#   - USER-AGENT,*YouTubeMusic*,🌍 国外媒体
+#   - USER-AGENT,*com.google.ios.youtubemusic*,🌍 国外媒体
+#   - USER-AGENT,YouTubeMusic*,🌍 国外媒体
+#   - USER-AGENT,com.google.ios.youtubemusic*,🌍 国外媒体
   - DOMAIN,music.youtube.com,🌍 国外媒体
 # Telegram
 #PROCESS-NAME,Telegram.exe
